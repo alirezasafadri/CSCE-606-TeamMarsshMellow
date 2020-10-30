@@ -1,2 +1,2 @@
-web: gunicorn DistrictSchoolPerformancePrediction.wsgi:application --log-file -
+web: gunicorn --chdir ./DistrictSchoolPerformancePrediction DistrictSchoolPerformancePrediction.wsgi:application --log-file -
 
